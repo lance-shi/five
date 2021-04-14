@@ -1,0 +1,1 @@
+This set of stones is in courtesy of nicolaiuta@neuf.fr. Please contact the author for any commercial use.
