@@ -139,8 +139,9 @@ class Board:
 			return
 		latest = self.trace.pop()
 		self.tiles[latest[0]][latest[1]] = 0
+		if not self.gameOver:
+			self.blackTurn = -self.blackTurn
 		self.gameOver = False
-		self.blackTurn = -self.blackTurn
 
 	def restart(self):
 		self.gameOver = False
